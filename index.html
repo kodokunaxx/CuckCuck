@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/base/font.css">
+    <link rel="stylesheet" href="/css/base/button.css">
+    <link rel="stylesheet" href="/css/base/combo-box.css">
+    <link rel="stylesheet" href="/css/base/input.css">
+    <link rel="stylesheet" href="/css/common/navbar.css">
+    <link rel="stylesheet" href="/css/common/header.css">
+    <link rel="stylesheet" href="/css/common/content.css">
+    <link rel="stylesheet" href="/css/base/table.css">
+    <link rel="stylesheet" href="/css/base/pagination.css">
+    <link rel="stylesheet" href="/css/page/employee.css">
+    <link rel="stylesheet" href="/css/base/modal.css">
+    <link rel="stylesheet" href="/css/page/employee-detail.css">
+    <link rel="stylesheet" href="/css/base/grid.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="logo-site">
+            <div class="logo-box">
+                <div class="toggle-icon"></div>
+                <div class="cukcuk-logo"></div>
+            </div>
+        </div>
+        <div class="navbar-content">
+            <a href="#" class="nav-item">
+                <div class="nav-item-icon">
+                    <i class="fa fa-tachometer" aria-hidden="true"></i>
+                </div>
+                <div class="nav-item-text">Tổng quan</div>
+            </a>
+            <a href="#" class="nav-item">
+                <div class="nav-item-icon">
+                    <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                </div>
+                <div class="nav-item-text">Báo cáo</div>
+            </a>
+            <a href="#" class="nav-item">
+                <div class="nav-item-icon">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+                <div class="nav-item-text">Mua hàng</div>
+            </a>
+            <a href="#" class="nav-item">
+                <div class="nav-item-icon">
+                    <i class="fa fa-male" aria-hidden="true"></i>
+                </div>
+                <div class="nav-item-text">Danh mục nhân viên</div>
+            </a>
+            <a href="#" class="nav-item">
+                <div class="nav-item-icon">
+                    <i class="fa fa-users" aria-hidden="true"></i>
+                </div>
+                <div class="nav-item-text">Danh mục khách hàng</div>
+            </a>
+            <a href="#" class="nav-item">
+                <div class="nav-item-icon">
+                    <i class="fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <div class="nav-item-text">Thiết lập hệ thống</div>
+            </a>
+        </div>
+    </div>
+    <div class="header">
+        <div class="container">
+            <div class="header-left">
+                <div class="dropdown" id="branch">
+                    <div class="drop-text-site">
+                        <div class="drop-text">
+                            Nhà hàng Biển Đông
+                        </div>
+                        <div class="drop-icon">
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="drop-data-site">
+                        <div class="drop-item">
+                            <div class="checked-icon">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-text">Nhà hàng Biển Đông</div>
+                        </div>
+                        <div class="drop-item">
+                            <div class="checked-icon"></div>
+                            <div class="item-text">Nhà hàng Biển Tây</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="information-site">
+                    <div class="avatar-logo"></div>
+                    <div class="username">Lê Khắc Phúc</div>
+                </div>
+                <div class="more-icon"></div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="content-header">
+                <div class="heading">
+                    <p class="tittle">Danh sách nhân viên</p>
+                    <div class="add-employee-site">
+                        <button class="btn-icon">
+                            <i class="fa fa-user-plus"></i>
+                            Thêm nhân viên
+                        </button>
+                    </div>
+
+                </div>
+                <div class="filter">
+                    <div class="search-box filter-item">
+                        <div class="box">
+                            <div class="search-icon-site">
+                                <i class="fa fa-search"></i>
+                            </div>
+                            <input type="text" class="input-search"
+                                placeholder="Tìm kiếm theo Mã, Tên hoặc Số điện thoại">
+                        </div>
+                    </div>
+                    <div class="dropdown filter-item">
+                        <div class="drop-text-site">
+                            <div class="drop-text">Tất cả phòng ban</div>
+                            <div class="drop-icon">
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="drop-data-site">
+                            <div class="drop-item">
+                                <div class="checked-icon">
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                </div>
+                                <div class="item-text">Nam</div>
+                            </div>
+                            <div class="drop-item">
+                                <div class="checked-icon"></div>
+                                <div class="item-text">Nữ</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown filter-item">
+                        <div class="drop-text-site">
+                            <div class="drop-text">Tất cả vị trí</div>
+                            <div class="drop-icon">
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="drop-data-site">
+                            <div class="drop-item">
+                                <div class="checked-icon">
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                </div>
+                                <div class="item-text">Nam</div>
+                            </div>
+                            <div class="drop-item">
+                                <div class="checked-icon"></div>
+                                <div class="item-text">Nữ</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reload-site">
+                        <div class="reload-icon"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-body">
+                <!-- <table class="misa-tbl misa-tbl-striped">
+                    <thead>
+                        <tr>
+                            <th>Mã nhân viên</th>
+                            <th>Họ và tên</th>
+                            <th>Giới tính</th>
+                            <th>Ngày sinh</th>
+                            <th>Điện thoại</th>
+                            <th>Email</th>
+                            <th>Chức vụ</th>
+                            <th>Phòng ban</th>
+                            <th>Mức lương cơ bản</th>
+                            <th>Trạng thái công việc</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1978</td>
+                            <td>0940458449</td>
+                            <td>lephuc0125@gmail.com</td>
+                            <td>Giám đốc</td>
+                            <td>Phòng nhân sự</td>
+                            <td>17.739.291</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1978</td>
+                            <td>0940458449</td>
+                            <td>lephuc0125@gmail.com</td>
+                            <td>Giám đốc</td>
+                            <td>Phòng nhân sự</td>
+                            <td>17.739.291</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1978</td>
+                            <td>0940458449</td>
+                            <td>lephuc0125@gmail.com</td>
+                            <td>Giám đốc</td>
+                            <td>Phòng nhân sự</td>
+                            <td>17.739.291</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1978</td>
+                            <td>0940458449</td>
+                            <td>lephuc0125@gmail.com</td>
+                            <td>Giám đốc</td>
+                            <td>Phòng nhân sự</td>
+                            <td>17.739.291</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1978</td>
+                            <td>0940458449</td>
+                            <td>lephuc0125@gmail.com</td>
+                            <td>Giám đốc</td>
+                            <td>Phòng nhân sự</td>
+                            <td>17.739.291</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1978</td>
+                            <td>0940458449</td>
+                            <td>lephuc0125@gmail.com</td>
+                            <td>Giám đốc</td>
+                            <td>Phòng nhân sự</td>
+                            <td>17.739.291</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1978</td>
+                            <td>0940458449</td>
+                            <td>lephuc0125@gmail.com</td>
+                            <td>Giám đốc</td>
+                            <td>Phòng nhân sự</td>
+                            <td>17.739.291</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1978</td>
+                            <td>0940458449</td>
+                            <td>lephuc0125@gmail.com</td>
+                            <td>Giám đốc</td>
+                            <td>Phòng nhân sự</td>
+                            <td>17.739.291</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1978</td>
+                            <td>0940458449</td>
+                            <td>lephuc0125@gmail.com</td>
+                            <td>Giám đốc</td>
+                            <td>Phòng nhân sự</td>
+                            <td>17.739.291</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1978</td>
+                            <td>0940458449</td>
+                            <td>lephuc0125@gmail.com</td>
+                            <td>Giám đốc</td>
+                            <td>Phòng nhân sự</td>
+                            <td>17.739.291</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                    </tbody>
+
+                </table> -->
+            </div>
+            <div class="content-footer">
+                <div class="paging">
+                    <div class="pagintation-text">
+                        <p>Hiển thị 1-10/1000 nhân viên</p>
+                    </div>
+                    <div class="pagination">
+                        <div class="back-to-start"></div>
+                        <div class="pre-page"></div>
+                        <div class="number-page">
+                            <div class="number">
+                                <div class="number-text">1</div>
+                            </div>
+                            <div class="number">
+                                <div class="number-text">2</div>
+                            </div>
+                            <div class="number">
+                                <div class="number-text">3</div>
+                            </div>
+                        </div>
+                        <div class="next-page"></div>
+                        <div class="go-to-end"></div>
+                    </div>
+                    <div class="pagination-total">
+                        <p>10 nhân viên/trang</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="detail-employee">
+        <div class="container">
+            <div class="modal-header">
+                <div class="misa-tittle">thông tin nhân viên</div>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-content">
+                <div class="misa-row">
+                    <div class="misa-col-2">
+                        <div class="avatar-site"></div>
+                        <p style="text-align: center;">(Vui lòng chọn ảnh có định dạng .jpg, .jpeg, .png, .gif)</p>
+                    </div>
+                    <div class="info misa-col-10">
+                        <div class="container">
+                            <div class="misa-row" style="padding-left: 16px;">
+                                <p class="misa-tittle2 info-title">
+                                    A. THÔNG TIN CHUNG:
+                                <div class="progress"></div>
+                                </p>
+                            </div>
+                            <div class="info-box-general">
+                                <div class="misa-row">
+                                    <div class="misa-col-6">
+                                        <div class="container-left">
+                                            <div class="col-item">
+                                                <div class="misa-label">Mã nhân viên(<span style="color: red;">*</span>)
+                                                </div>
+                                                <div class="input-site"><input type="text" class="misa-input"></div>
+                                            </div>
+                                            <div class="col-item">
+                                                <div class="misa-label">Ngày sinh</div>
+                                                <div class="input-site"><input type="date" class="misa-input"></div>
+                                            </div>
+                                            <div class="col-item">
+                                                <div class="misa-label">Số CMTND/ Căn cước(<span
+                                                        style="color: red;">*</span>)
+                                                </div>
+                                                <div class="input-site"><input type="text" class="misa-input"></div>
+                                            </div>
+                                            <div class="col-item">
+                                                <div class="misa-label">Nơi cấp</div>
+                                                <div clas>
+                                                    <div class="input-site"><input type="text" class="misa-input">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-item">
+                                                <div class="misa-label">Email(<span style="color: red;">*</span>)</div>
+                                                <div class="input-site"><input type="text" class="misa-input">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="misa-col-6">
+                                        <div class="container-right">
+                                            <div class="col-item">
+                                                <div class="misa-label">Họ và tên(<span style="color: red;">*</span>)
+                                                </div>
+                                                <div class="input-site"><input type="text" class="misa-input"></div>
+                                            </div>
+                                            <div class="col-item">
+                                                <div class="misa-label">Giới tính</div>
+                                                <select name="" id="" class="misa-combo-box" style="width: 100%;">
+                                                    <option value="">Nam</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-item">
+                                                <div class="misa-label">Ngày cấp(<span style="color: red;">*</span>)
+                                                </div>
+                                                <div class="input-site"><input type="date" class="misa-input"></div>
+                                            </div>
+                                            <div class="col-item">
+                                            </div>
+                                            <div class="col-item">
+                                                <div class="misa-label">Số điện thoại(<span
+                                                        style="color: red;">*</span>)</div>
+                                                <div class="input-site"><input type="text" class="misa-input">
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="misa-row" style="padding-left: 16px;">
+                                <p class="misa-tittle2 info-title">
+                                    B. THÔNG TIN CÔNG VIỆC:
+                                <div class="progress"></div>
+                                </p>
+                            </div>
+                            <div class="info-box-job">
+                                <div class="misa-row">
+                                    <div class="misa-col-6">
+                                        <div class="container-left">
+                                            <div class="col-item">
+                                                <div class="misa-label">Vị trí</div>
+                                                <select name="" id="" class="misa-combo-box" style="width: 100%;">
+                                                    <option value="">Giám đốc</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-item">
+                                                <div class="misa-label">Mã số thuế</div>
+                                                <div class="input-site"><input type="text" class="misa-input"></div>
+                                            </div>
+                                            <div class="col-item">
+                                                <div class="misa-label">Ngày gia nhập công ty
+                                                </div>
+                                                <div class="input-site"><input type="date" class="misa-input"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="misa-col-6">
+                                        <div class="container-right">
+                                            <div class="col-item">
+                                                <div class="misa-label">Phòng ban</div>
+                                                <select name="" id="" class="misa-combo-box" style="width: 100%;">
+                                                    <option value="">Nhân sự</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-item">
+                                                <div class="misa-label">Mức lương cơ bản</div>
+                                                <div class="input-site"><input type="text" class="misa-input"></div>
+                                            </div>
+                                            <div class="col-item">
+                                                <div class="misa-label">Tình trạng công việc
+                                                </div>
+                                                <select name="" id="" class="misa-combo-box" style="width: 100%;">
+                                                    <option value="">Đang làm việc</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <div class="modal-action">
+                    <div class="action-box">
+                        <button class="misa-white-btn">Hủy</button>
+                        <button class="misa-btn-icon misa-btn-icon-default">
+                            <i class="fa fa-save"></i>
+                            Lưu
+                        </button>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script src="https://use.fontawesome.com/1e084cc5a9.js" defer></script>

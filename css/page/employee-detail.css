@@ -1,0 +1,53 @@
+.modal-action{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+}
+    .modal-action>.action-box{
+        display: flex;
+        margin-left: auto;
+        align-self: center;
+    }
+        .action-box>button{
+            margin-left: 16px;
+        }
+    
+        .avatar-site{
+            background: url('/content/img/default-avatar.jpg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: auto;
+            width: 100%;
+            border-radius: 50%;
+            background-color: #ffffff;
+            border: 1px solid #e5e5e5;
+        }
+.container-right{
+    padding: 8px;
+    padding-right: 0;
+}
+.container-left{
+    padding: 8px;
+    padding-left: 16px;
+}
+.col-item{
+    min-height: 70px;
+}
+.input-site{
+    width: 98%;
+}
+
+.misa-label{
+    padding-bottom: 4px;
+}
+
+.progress{
+    width:15%;
+    height: 5px;
+    background-color: #019160;
+}
+
+
+#detail-employee{
+    display: none;
+}
