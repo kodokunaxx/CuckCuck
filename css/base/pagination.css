@@ -10,6 +10,8 @@
         background-repeat: no-repeat;
         background-size: cover;
         margin: 0 16px;
+        border: 1px solid #ffffff;
+        border-radius: 4px;
     }
 
     .pre-page{
@@ -20,6 +22,8 @@
         background-repeat: no-repeat;
         background-size: cover;
         margin: 0 8px;
+        border: 1px solid #ffffff;
+        border-radius: 4px;
     }
 
     .next-page{
@@ -30,6 +34,8 @@
         background-repeat: no-repeat;
         background-size: cover;
         margin: 0 8px;
+        border: 1px solid #ffffff;
+        border-radius: 4px;
     }
 
     .go-to-end{
@@ -40,6 +46,8 @@
         background-repeat: no-repeat;
         background-size: cover;
         margin: 0 16px;
+        border: 1px solid #ffffff;
+        border-radius: 4px;
     }
 
 
