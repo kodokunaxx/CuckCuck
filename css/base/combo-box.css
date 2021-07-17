@@ -69,4 +69,15 @@
     color: #000000;
 }
 
+
+
+.drop-item.selected{
+    background-color: #01b075;
+}
+.drop-item.selected>.item-text{
+    color: #ffffff;
+}
+.drop-item.selected>.checked-icon{
+    color: #ffffff;
+}
 /* end core dropdown */
