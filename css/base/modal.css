@@ -19,6 +19,7 @@
         padding: 0;
         position: relative;
         display: block;
+        height: auto;
     }
         .modal-header{
             padding: 24px;
@@ -50,6 +51,7 @@
             height: 60px;
             display: flex;
             background: #e5e5e5;
+            margin-top: 24px;
         }
 
         .modal-action{

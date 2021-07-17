@@ -12,8 +12,15 @@
     text-align: left;
 }
 
+.tbl th{
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+}
+
+
 .tbl th>i{
-    padding: 0 8px;
+    padding: 0 0 0 8px;
 }
 
 .tbl-striped tbody tr:nth-child(odd){

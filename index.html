@@ -415,7 +415,8 @@
     <div class="modal" id="detail-employee">
         <div class="container">
             <div class="modal-header">
-                <div class="tittle">Thông tin nhân viên</div>
+                <div class="tittle">Thông tin nhân viên
+                </div>
                 <div class="close-modal-site">
                     <button class="close">&times;</button>
                 </div>
@@ -430,8 +431,10 @@
                     </div>
                     <div class="col-9">
                         <div class="info-box-general">
-                            <div class="row">
-                                <div class="tittle" style="font-size: 15px;">A. Thông tin chung :</div>
+                            <div class="row title-info-box" style="margin-top: 0 !important;">
+                                <div class="tittle" style="font-size: 15px;">A. Thông tin chung :
+                                    <div class="progress-bottom"></div>
+                                </div>
                             </div>
                             <div class="row">
                                 <div class="col-6">
@@ -510,6 +513,9 @@
                                             </div>
                                         </div>
                                         <div class="col-item">
+                                            <div class="label-input">
+
+                                            </div>
                                         </div>
                                         <div class="col-item">
                                             <div class="label-input">
@@ -522,7 +528,10 @@
                             </div>
                         </div>
                         <div class="info-box-job">
-                            <div class="tittle" style="font-size: 15px;">B. Thông tin công việc :</div>
+                            <div class="tittle title-info-box" style="font-size: 15px;">
+                                B. Thông tin công việc :
+                                <div class="progress-bottom"></div>
+                            </div>
                             <div class="row">
                                 <div class="col-6">
                                     <div style="padding-right: 24px;">
@@ -595,7 +604,10 @@
                                         <div class="col-item">
                                             <div class="label-input">
                                                 <p class="label">Mức lương cơ bản</p>
-                                                <input type="text" class="input" style="text-align: right;">
+                                                <div style="position: relative;display: flex;">
+                                                    <input type="text" class="input salary-input-box">
+                                                    <div class="price-txt">(VNĐ)</div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-item">
