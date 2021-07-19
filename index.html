@@ -32,37 +32,37 @@
             </div>
         </div>
         <div class="navbar-content">
-            <a href="#" class="nav-item">
+            <a href="/" class="nav-item">
                 <div class="nav-item-icon">
                     <i class="fa fa-tachometer" aria-hidden="true"></i>
                 </div>
                 <div class="nav-item-text">Tổng quan</div>
             </a>
-            <a href="#" class="nav-item">
+            <a href="/" class="nav-item">
                 <div class="nav-item-icon">
                     <i class="fa fa-bar-chart" aria-hidden="true"></i>
                 </div>
                 <div class="nav-item-text">Báo cáo</div>
             </a>
-            <a href="#" class="nav-item">
+            <a href="/" class="nav-item">
                 <div class="nav-item-icon">
                     <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                 </div>
                 <div class="nav-item-text">Mua hàng</div>
             </a>
-            <a href="#" class="nav-item">
+            <a href="/" class="nav-item">
                 <div class="nav-item-icon">
                     <i class="fa fa-male" aria-hidden="true"></i>
                 </div>
                 <div class="nav-item-text">Danh mục nhân viên</div>
             </a>
-            <a href="#" class="nav-item">
+            <a href="/" class="nav-item">
                 <div class="nav-item-icon">
                     <i class="fa fa-users" aria-hidden="true"></i>
                 </div>
                 <div class="nav-item-text">Danh mục khách hàng</div>
             </a>
-            <a href="#" class="nav-item">
+            <a href="/" class="nav-item">
                 <div class="nav-item-icon">
                     <i class="fa fa-cogs" aria-hidden="true"></i>
                 </div>
@@ -128,7 +128,7 @@
                                 placeholder="Tìm kiếm theo Mã, Tên hoặc Số điện thoại">
                         </div>
                     </div>
-                    <div class="dropdown filter-item">
+                    <div class="dropdown filter-item" name="department" id="department">
                         <div class="drop-text-site">
                             <div class="drop-text">Tất cả phòng ban</div>
                             <div class="drop-icon">
@@ -136,7 +136,7 @@
                             </div>
                         </div>
                         <div class="drop-data-site">
-                            <div class="drop-item selected">
+                            <!-- <div class="drop-item selected">
                                 <div class="checked-icon">
                                     <i class="fa fa-check"></i>
                                 </div>
@@ -150,10 +150,10 @@
                             <div class="drop-item">
                                 <div class="checked-icon"></div>
                                 <div class="item-text">Phần mềm</div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
-                    <div class="dropdown filter-item">
+                    <div class="dropdown filter-item" id="position">
                         <div class="drop-text-site">
                             <div class="drop-text">Tất cả vị trí</div>
                             <div class="drop-icon">
@@ -161,7 +161,7 @@
                             </div>
                         </div>
                         <div class="drop-data-site">
-                            <div class="drop-item selected">
+                            <!-- <div class="drop-item selected">
                                 <div class="checked-icon">
                                     <i class="fa fa-check" aria-hidden="true"></i>
                                 </div>
@@ -170,7 +170,7 @@
                             <div class="drop-item">
                                 <div class="checked-icon"></div>
                                 <div class="item-text">Nhân viên</div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="reload-site">
@@ -196,6 +196,39 @@
                         </tr>
                     </thead>
                     <tbody>
+                        <!-- <tr>
+                            <td class="txt-align-right">1</td>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1978</td>
+                            <td>0940458449</td>
+                            <td>
+                                lephuc0125@gmail.com
+                                <span class="tooltip">lephuc0125@gmail.com</span>
+                            </td>
+                            <td>Giám đốc</td>
+                            <td>Phòng nhân sự</td>
+                            <td class="txt-align-right">17.739.291</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td class="txt-align-right">1</td>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long mat sawoj abc a12
+                                <span class="tooltip">Hồ Văn Long mat sawoj abc a12</span>
+                            </td>
+                            <td></td>
+                            <td>11/08/1978</td>
+                            <td>0940458449</td>
+                            <td>lephuc012adfadfadfa5@gmail.com
+                                <span class="tooltip">lephuc012adfadfadfa5@gmail.com</span>
+                            </td>
+                            <td>Giám đốc</td>
+                            <td>Phòng nhân sự</td>
+                            <td class="txt-align-right">17.739.291</td>
+                            <td>Đang thử việc</td>
+                        </tr>
                         <tr>
                             <td class="txt-align-right">1</td>
                             <td>NV-532408</td>
@@ -203,7 +236,99 @@
                             <td></td>
                             <td>11/08/1978</td>
                             <td>0940458449</td>
-                            <td>lephuc0125@gmail.com</td>
+                            <td>lephuc0125@gmail.com
+                                <span class="tooltip">lephuc012adfadfadfa5@gmail.com</span>
+                            </td>
+                            <td>Giám đốc</td>
+                            <td>Phòng nhân sự</td>
+                            <td class="txt-align-right">17.739.291</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td class="txt-align-right">1</td>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1978</td>
+                            <td>0940458449</td>
+                            <td>lephuc0125@gmail.com
+                                <span class="tooltip">lephuc012adfadfadfa5@gmail.com</span>
+                            </td>
+                            <td>Giám đốc</td>
+                            <td>Phòng nhân sự</td>
+                            <td class="txt-align-right">17.739.291</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td class="txt-align-right">1</td>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1978</td>
+                            <td>0940458449</td>
+                            <td>lephuc0125@gmail.com
+                                <span class="tooltip">lephuc012adfadfadfa5@gmail.com</span>
+                            </td>
+                            <td>Giám đốc</td>
+                            <td>Phòng nhân sự</td>
+                            <td class="txt-align-right">17.739.291</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td class="txt-align-right">1</td>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1978</td>
+                            <td>0940458449</td>
+                            <td>lephuc0125@gmail.com
+                                <span class="tooltip">lephuc012adfadfadfa5@gmail.com</span>
+                            </td>
+                            <td>Giám đốc</td>
+                            <td>Phòng nhân sự</td>
+                            <td class="txt-align-right">17.739.291</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td class="txt-align-right">1</td>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1978</td>
+                            <td>0940458449</td>
+                            <td>lephuc0125@gmail.com
+                                <span class="tooltip">lephuc012adfadfadfa5@gmail.com</span>
+                            </td>
+                            <td>Giám đốc</td>
+                            <td>Phòng nhân sự</td>
+                            <td class="txt-align-right">17.739.291</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td class="txt-align-right">1</td>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1978</td>
+                            <td>0940458449</td>
+                            <td>lephuc0125@gmail.com
+                                <span class="tooltip">lephuc012adfadfadfa5@gmail.com</span>
+                            </td>
+                            <td>Giám đốc</td>
+                            <td>Phòng nhân sự</td>
+                            <td class="txt-align-right">17.739.291</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td class="txt-align-right">1</td>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1978</td>
+                            <td>0940458449</td>
+                            <td>lephuc0125@gmail.com
+                                <span class="tooltip">lephuc012adfadfadfa5@gmail.com</span>
+                            </td>
                             <td>Giám đốc</td>
                             <td>Phòng nhân sự</td>
                             <td class="txt-align-right">17.739.291</td>
@@ -273,111 +398,7 @@
                             <td>Phòng nhân sự</td>
                             <td class="txt-align-right">17.739.291</td>
                             <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td class="txt-align-right">1</td>
-                            <td>NV-532408</td>
-                            <td>Hồ Văn Long</td>
-                            <td></td>
-                            <td>11/08/1978</td>
-                            <td>0940458449</td>
-                            <td>lephuc0125@gmail.com</td>
-                            <td>Giám đốc</td>
-                            <td>Phòng nhân sự</td>
-                            <td class="txt-align-right">17.739.291</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td class="txt-align-right">1</td>
-                            <td>NV-532408</td>
-                            <td>Hồ Văn Long</td>
-                            <td></td>
-                            <td>11/08/1978</td>
-                            <td>0940458449</td>
-                            <td>lephuc0125@gmail.com</td>
-                            <td>Giám đốc</td>
-                            <td>Phòng nhân sự</td>
-                            <td class="txt-align-right">17.739.291</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td class="txt-align-right">1</td>
-                            <td>NV-532408</td>
-                            <td>Hồ Văn Long</td>
-                            <td></td>
-                            <td>11/08/1978</td>
-                            <td>0940458449</td>
-                            <td>lephuc0125@gmail.com</td>
-                            <td>Giám đốc</td>
-                            <td>Phòng nhân sự</td>
-                            <td class="txt-align-right">17.739.291</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td class="txt-align-right">1</td>
-                            <td>NV-532408</td>
-                            <td>Hồ Văn Long</td>
-                            <td></td>
-                            <td>11/08/1978</td>
-                            <td>0940458449</td>
-                            <td>lephuc0125@gmail.com</td>
-                            <td>Giám đốc</td>
-                            <td>Phòng nhân sự</td>
-                            <td class="txt-align-right">17.739.291</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td class="txt-align-right">1</td>
-                            <td>NV-532408</td>
-                            <td>Hồ Văn Long</td>
-                            <td></td>
-                            <td>11/08/1978</td>
-                            <td>0940458449</td>
-                            <td>lephuc0125@gmail.com</td>
-                            <td>Giám đốc</td>
-                            <td>Phòng nhân sự</td>
-                            <td class="txt-align-right">17.739.291</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td class="txt-align-right">1</td>
-                            <td>NV-532408</td>
-                            <td>Hồ Văn Long</td>
-                            <td></td>
-                            <td>11/08/1978</td>
-                            <td>0940458449</td>
-                            <td>lephuc0125@gmail.com</td>
-                            <td>Giám đốc</td>
-                            <td>Phòng nhân sự</td>
-                            <td class="txt-align-right">17.739.291</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td class="txt-align-right">1</td>
-                            <td>NV-532408</td>
-                            <td>Hồ Văn Long</td>
-                            <td></td>
-                            <td>11/08/1978</td>
-                            <td>0940458449</td>
-                            <td>lephuc0125@gmail.com</td>
-                            <td>Giám đốc</td>
-                            <td>Phòng nhân sự</td>
-                            <td class="txt-align-right">17.739.291</td>
-                            <td>Đang thử việc</td>
-                        </tr>
-                        <tr>
-                            <td class="txt-align-right">1</td>
-                            <td>NV-532408</td>
-                            <td>Hồ Văn Long</td>
-                            <td></td>
-                            <td>11/08/1978</td>
-                            <td>0940458449</td>
-                            <td>lephuc0125@gmail.com</td>
-                            <td>Giám đốc</td>
-                            <td>Phòng nhân sự</td>
-                            <td class="txt-align-right">17.739.291</td>
-                            <td>Đang thử việc</td>
-                        </tr>
+                        </tr> -->
                     </tbody>
 
                 </table>
@@ -605,7 +626,7 @@
                                             <div class="label-input">
                                                 <p class="label">Mức lương cơ bản</p>
                                                 <div style="position: relative;display: flex;">
-                                                    <input type="text" class="input salary-input-box">
+                                                    <input type="text" class="input salary-input-box" value="">
                                                     <div class="price-txt">(VNĐ)</div>
                                                 </div>
                                             </div>
@@ -613,7 +634,26 @@
                                         <div class="col-item">
                                             <div class="label-input">
                                                 <p class="label">Tình trạng công việc</p>
-                                                <input type="text" class="input">
+                                                <div class="dropdown" style="width: 100%;">
+                                                    <div class="drop-text-site">
+                                                        <div class="drop-text">Đang làm việc</div>
+                                                        <div class="drop-icon">
+                                                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="drop-data-site">
+                                                        <div class="drop-item selected">
+                                                            <div class="checked-icon">
+                                                                <i class="fa fa-check" aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="item-text">Đang làm việc</div>
+                                                        </div>
+                                                        <div class="drop-item">
+                                                            <div class="checked-icon"></div>
+                                                            <div class="item-text">Đã nghỉ việc</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -644,6 +684,7 @@
 
 </html>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://use.fontawesome.com/1e084cc5a9.js" defer></script>
-<script src="/js/common/common.js" defer></script>
+<script src="https://use.fontawesome.com/1e084cc5a9.js"></script>
 <script src="/js/page/employee.js"></script>
+<script src="/js/common/common.js"></script>
+<script src="/js/page/employee-detail.js"></script>
