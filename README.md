@@ -6,4 +6,12 @@
 - thêm vnđ mức lương cơ bản
 # End : Fixed success
 
+# 19/8 include :
+- Thêm dấu . ở ô lương
+- chuyển trạng thái công việc sang dạnh droplist
+- format money VND
+- make pagination theo fact data
+- filter / show table theo fact data 
+# End : Fixed success
+
 
